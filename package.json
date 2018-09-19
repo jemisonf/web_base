@@ -1,0 +1,12 @@
+{
+  "name": "web_base",
+  "version": "0.0.0",
+  "description": "A base set of css styles",
+  "scripts": {
+    "sass": "node-sass sass/main.scss -o ."
+  },
+  "author": "Fischer Jemison",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
