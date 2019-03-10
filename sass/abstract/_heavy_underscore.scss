@@ -1,0 +1,7 @@
+@mixin heavy_underscore($color) {
+    box-shadow: inset 0px -4px $color;
+}
+
+@mixin heavy_underscore_reset {
+    box-shadow: none;
+}

@@ -1,10 +1,22 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
 $white: #fefefe;
 $black: #0e0e0e;
 $blue: #006eb7;
 
+$main: $black;
+$secondary: $blue;
 $background: $white;
-$text-color: $black;
-$link-color: $blue;
+$text-color: $main;
+$link-color: $secondary;
 
-$font-stack: "Open Sans", sans-serif;
+$font-stack: "system", sans-serif;
+$header-font-stack: $font-stack;
+$code-font-stack: monospace;
 $base-font-size: 16px;
+$code-font-size: .9em;

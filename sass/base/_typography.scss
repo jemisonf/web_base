@@ -8,3 +8,12 @@ a {
   color: $link-color;
   font-weight: 700;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-stack;
+}
+
+code {
+  font-family: $code-font-stack;
+  font-size: $code-font-size;
+}
